@@ -1,0 +1,45 @@
+body{
+    font-family: 'PTSans', sans-serif;
+    font-size: 100%;
+    line-height: 1.25;
+    float: left;
+    margin-top: 20px;
+}
+
+p{font-style: italic;}
+
+@font-face{
+    font-family: 'pt_sansregular';
+    src: url('PTS55F-webfont.eot');
+    src: url('PTS55F-webfont.eot? #iefix') format('embedded-opentype'), url('PTS55F-webfont.woff') format('woff'),
+    url('PTS55F-webfont.ttf')format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: 'pt_sansitalic';
+    src: url('PTS56F-webfont.eot');
+    src: url('PTS56F-webfont.eot? #iefix') format('embedded-opentype'), url('PTS56F-webfont.woff') format('woff'),
+    url('PTS56F-webfont.ttf')format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: 'pt_sansbold';
+    src: url('PTS75F-webfont.eot');
+    src: url('PTS75F-webfont.eot? #iefix') format('embedded-opentype'), url('PTS75F-webfont.woff') format('woff'),
+    url('PTS75F-webfont.ttf')format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: 'pt_sansbold_italic';
+    src: url('PTS76F-webfont.eot');
+    src: url('PTS76F-webfont.eot? #iefix') format('embedded-opentype'), url('PTS76F-webfont.woff') format('woff'),
+    url('PTS76F-webfont.ttf')format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
