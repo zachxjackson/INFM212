@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang= "en">
+<head>
+	<title> Week 2- Example </title>
+    <style>
+
+        h1{text-align: center;}
+        .grid-container{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: repeat(3, 1fr);
+            height: 400px;
+            align-content: space-between;
+            text-align: center;
+            grid-template-areas:
+            "item1 item2 item3" "item4 item5 item6" "item7 item8 item9";
+            
+         }
+         .item1{
+            grid-area: item1;
+            border: 2px solid black;
+         }
+         .item2{
+            grid-area: item2;
+            border: 2px solid black;
+         }
+         .item3{
+            grid-area: item3;
+            border: 2px solid black;
+         }
+         .item4{
+            grid-area: item4;
+            border: 2px solid black;
+         }
+         .item5{
+            grid-area: item5;
+            border: 2px solid black;
+         }
+         .item6{
+            grid-area: item6;
+            border: 2px solid black;
+         }
+         .item7{
+            grid-area: item7;
+            border: 2px solid black;
+         }
+         .item8{
+            grid-area: item8;
+            border: 2px solid black;
+         }
+         .item9{
+            grid-area: item9;
+            border: 2px solid black;
+         }
+
+   </style>
+</head>
+<body bgcolor = "#F4B37C" >
+<body>
+    <h1> Grid Display</h1>
+
+    <div class="grid-container">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+        <div class="item4">4</div>
+        <div class="item5">5</div>
+        <div class="item6">6</div>
+        <div class="item7">7</div>
+        <div class="item8">8</div>
+        <div class="item9">9</div>
+      </div>
+
+
+	
+
+      <ul>
+
+
+         <li> <a href = "../index.html" target = "_blank" >Return to Landing Page</a></li>
+          <li> <a href = "../textbook.html" target = "_blank" >Return to TextBook Code Examples</a></li>
+       </ul>
+      
+
+</body>
+</html>
